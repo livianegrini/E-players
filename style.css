@@ -1,0 +1,135 @@
+/* Reset do CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    height:60px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.container_header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.links_header{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.logo_header{
+    background-color: black;
+    width: 215px;
+}
+
+.container_banner{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right, rgba(64,137,193,1) 0%, rgba(28,59,83,1) 63%, rgba(0,0,0,1) 100%);
+}
+
+.texto_banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    top: 500px;
+}
+
+.container_banner h1{
+    font-size: 70px;
+    color: white;
+}
+
+.container_banner span{
+    color: white;
+    font-size: 22px;
+}
+
+.botao_inscrevase{
+    width: 280px;
+    height: 54px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+}
+
+.container_footer{
+    background-color: black;
+}
+
+.imagens_footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_info{
+    width: 1920px; 
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 31, 112, 0.7), rgba(0, 31, 112, 0.7)), url(imagens/bg-lol.jpg);
+    clip-path: polygon(100% 2%, 100% 62%, 0 100%, 0 39%);
+    padding-top: 57px;
+}
+
+.conteudo_ligas{
+    display: flex;
+    transform: skewY(-3deg);
+    background-color: black;
+    height: 490px;
+}
+
+.texto_info{
+    transform: skewY(3deg);
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.texto_info h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.texto_info p{
+    width: 690px;
+    font-size: 20px;
+}
+
+.img_info{
+    position: absolute;
+    width: 695px;
+    height: 590px;
+    left: 1066.0px;
+    top: -6px;
+    margin: auto;
+}
+
+.footer_info{
+    background-color: black;
+    width: 1903px;
+    height: 78px;
+}

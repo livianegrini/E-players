@@ -111,7 +111,7 @@ header{
     transform: skewY(3deg);
     color: white;
     font-family: 'Titillium Web', sans-serif;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .texto_info h2{
@@ -122,6 +122,7 @@ header{
 }
 
 .texto_info p{
+    margin-top: 20px;
     width: 640px;
     font-size: 20px;
 }
@@ -129,8 +130,8 @@ header{
 .img_info{
     position: absolute;
     width: 570px;
-    left: 820px;
-    top: 8px;
+    left: 1075px;
+    top: 12px;
     margin: auto;
 }
 
@@ -141,21 +142,37 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    left: 30px;
+    /* left: 30px; */
 }
 
-.container_footer_info{
+.aovivo_info{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: auto;
+    justify-content: space-evenly; 
+    align-items: center; 
+    width: 316px;
     font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
     color: white;
-    border: 0px;
+    margin-left: 123px;
+    -405px
+    88px
 }
+
+.embreve_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 720px;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    margin-right: 130px;
+}
+
 
 .texto_aovivo_embreve{
     width: 68px;
@@ -186,6 +203,208 @@ header{
 }
 
 .container_noticias{
-    height: 842px;
-    background-color: ;
+    background-color: #1E1C21;
+    width: 100%;
+    height: 890px;
+    display: flex;
+    justify-content: center;
 }
+
+.box_noticia{
+    width: 780px;
+    height: auto;
+    margin-right: 140px;
+}
+
+.box_noticia h5{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 15px 0;
+}
+
+.box_noticias_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.box_noticias_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_card_noticia{
+    width: 222px;
+    height: 346px;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgba(0,0,0,1) 100%);
+}
+
+.box_card_noticia img{
+    width: 222px;
+    height: auto;    
+}
+
+.box_card_noticia span{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.box_card_noticia p{
+    width: 197px;
+    margin-left: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+
+.box_proximas_partidas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_proximas{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+
+.box_proximas{
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgba(0,0,0,1) 100%);
+    height: 730px;
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.box_partida_1{
+    height: auto;
+    width: 217px;
+}
+
+.box_partida_1 span{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.links_uteis{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 151px;
+}
+
+.links_uteis h6{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 151px;
+}
+
+.links_uteis a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.paginas{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 151px;
+}
+
+.paginas h6{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 151px;
+}
+
+.paginas a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.logo_footer{
+    width: 339px;
+    height: 36px;
+}
+
+.redes_sociais input{
+    width: 150px;
+    height: 32px; 
+    font-size: 19px;
+    font-weight: bold;  
+    font-family: 'Titillium Web', sans-serif; 
+}
+
+.redes_sociais button{
+    background-color: #001F70;
+    border: none;
+    width: 117px;
+    height: 32px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.redes_sociais span{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.redes img{
+    width: 47px;
+    height: 47px;
+}
+

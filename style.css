@@ -156,8 +156,6 @@ header{
     font-weight: bolder;
     color: white;
     margin-left: 123px;
-    -405px
-    88px
 }
 
 .embreve_info{
@@ -305,6 +303,158 @@ header{
 }
 
 
+
+.banner_cadastro{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    width: 1903px;
+    height: 237px;
+    background-image: url(imagens/Rectangle\ 5.png);
+    justify-content: center;
+}
+
+
+.banner_cadastro h1{
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.tela_cadastro{
+    height: 1100px;
+    background: linear-gradient(to bottom, rgb(14, 14, 14) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgb(31, 31, 31) 100%);
+    padding-top: 70px; 
+}
+
+.caixa_cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 629px;
+    width: 770px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #000000 0%, rgb(60 60 60 / 58%) 25%, rgb(11 11 11) 87.5%);
+}
+
+.botoes_cadastro{
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todos_preencher{
+    margin-top: -35px;
+}
+
+.preencher_cadastro{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.preencher_cadastro span{
+    color: white;
+}
+
+.preencher_cadastro input{
+    background-color: #ABABAB;
+    height: 22px;
+    width: 575px;
+}
+
+.preencher_cadastro_equipe{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.preencher_cadastro_equipe span{
+    color: white;
+}
+
+.preencher_cadastro_equipe input{
+    background-color: #ABABAB;
+    height: 22px;
+    width: 575px;
+}
+
+.botao_cadastrar{
+    height: 40px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 257px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+}
+
+.lista_de_jogadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+}
+
+table{
+    width: 770px;
+    border: 2px solid;
+    border-spacing: 0;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.lista_de_jogadores h2{
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+
+th{
+    padding: 0px 20px;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 15px 20px;
+}
+
+.linha1{
+    height: 50px;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.linha1 th{
+    text-align: left;
+    border-bottom: 2px solid;
+    /* border-collapse: collapse;
+    border: none; */
+}
+
+.linha2{
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.linha3{
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
 footer{
     background-color: black;
     display: flex;
@@ -365,8 +515,8 @@ footer{
     margin: 5px 0;
 }
 
-.logo_footer{
-    width: 339px;
+.logo_footer img{
+    width: 282px;
     height: 36px;
 }
 
@@ -408,3 +558,54 @@ footer{
     height: 47px;
 }
 
+/* Página Cadastro de Times */
+
+.banner_cadastro2{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 237px;
+    background-image: url(imagens/Rectangle\ 5\ azul.png);
+    justify-content: center;
+}
+
+.banner_cadastro2 h1{
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.caixa_cadastro2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 770px;
+    height: 340px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #000000 0%, rgb(60 60 60 / 58%) 25%, rgb(11 11 11) 87.5%);
+}
+
+.preencher_cadastro button{
+    width: 146px;
+    height: 30px;
+    background-color: #ABABAB;
+}
+
+.todos_preencher2{
+    margin-top: -px;
+}
+
+.botao_cadastrar2{
+    height: 32px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 257px;
+    border-radius: 8px;
+    background-color:#001F70;
+    color: white;
+    font-size: 19px;
+}

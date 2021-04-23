@@ -1,5 +1,6 @@
 /* Reset do CSS*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 * {
     margin:0;
@@ -80,6 +81,7 @@ header{
     background-color: red;
     color: white;
     font-size: 34px;
+    border: none;
 }
 
 .container_footer{
@@ -339,14 +341,9 @@ header{
 }
 
 .botoes_cadastro{
-    /* margin-top: 30px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.todos_preencher{
-    margin-top: -35px;
 }
 
 .preencher_cadastro{
@@ -361,6 +358,35 @@ header{
 }
 
 .preencher_cadastro input{
+    background-color: #ABABAB;
+    height: 22px;
+    width: 575px;
+}
+
+.input_cadastro{
+    display: none;
+}
+
+.label_botao{
+    width: 146px;
+    height: 25px;
+    background-color: #ABABAB;
+    color: black;
+    text-align: center;
+}
+
+.preencher_cadastro_nomejogador{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.preencher_cadastro_nomejogador span{
+    color: white;
+}
+
+.preencher_cadastro_nomejogador input{
     background-color: #ABABAB;
     height: 22px;
     width: 575px;
@@ -394,6 +420,7 @@ header{
     background-color: red;
     color: white;
     font-size: 19px;
+    border: none;
 }
 
 .lista_de_jogadores{
@@ -454,7 +481,7 @@ td{
     font-family: 'Titillium Web', sans-serif;
 }
 
-
+/* Footer */
 footer{
     background-color: black;
     display: flex;
@@ -564,9 +591,11 @@ footer{
     display: flex;
     align-items: center;
     margin-top: 60px;
-    width: 100%;
+    width: 100vw;
     height: 237px;
     background-image: url(imagens/Rectangle\ 5\ azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
 }
 
@@ -587,14 +616,22 @@ footer{
     background: linear-gradient(180deg, #000000 0%, rgb(60 60 60 / 58%) 25%, rgb(11 11 11) 87.5%);
 }
 
-.preencher_cadastro button{
-    width: 146px;
-    height: 30px;
-    background-color: #ABABAB;
+
+.preencher_cadastro_nome_equipe{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
 }
 
-.todos_preencher2{
-    margin-top: -px;
+.preencher_cadastro_nome_equipe span{
+    color: white;
+}
+
+.preencher_cadastro_nome_equipe input{
+    background-color: #ABABAB;
+    height: 22px;
+    width: 575px;
 }
 
 .botao_cadastrar2{
@@ -608,4 +645,5 @@ footer{
     background-color:#001F70;
     color: white;
     font-size: 19px;
+    border: none;
 }

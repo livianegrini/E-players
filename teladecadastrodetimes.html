@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Tela de Cadastro Times</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="container container_header">
@@ -24,18 +26,19 @@
     <div class="banner_cadastro2 container">
         <h1>Cadastro de Times</h1>
     </div>
-    
+
     <section class="tela_cadastro">
         <div class="caixa_cadastro2">
             <div class="botoes_cadastro">
-                <div class="todos_preencher2">
-                    <div class="preencher_cadastro">
+                <div class="todos_preencher">
+                    <div class="preencher_cadastro_nome_equipe">
                         <span>Nome da Equipe</span>
                         <input type="text">
                     </div>
                     <div class="preencher_cadastro">
                         <span>Emblema</span>
-                        <button>Escolher Imagem</button>
+                        <label class="label_botao" for="input_imagem">Escolha a Imagem</label>
+                        <input class="input_cadastro" type="file" name="input_imagem">
                     </div>
                 </div>
 
@@ -100,4 +103,5 @@
         </div>
     </footer>
 </body>
+
 </html>

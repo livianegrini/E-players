@@ -13,7 +13,7 @@
     <header>
         <div class="container container_header">
             <a href=""><img class="logo_header" src="imagens/logo.svg"></img></a>
-            <nav class="links_header">
+            <nav id="links" class="links_header">
                 <a href="#inicio">Início</a>
                 <a href="#horarios">Horários</a>
                 <a href="#campeonato">Campeonato</a>
@@ -111,6 +111,19 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function BotaoDoMenu() {
+            var menu = document.getElementById("links")
+            if (menu.style.display  === "flex") {
+                // esconda o menu
+                menu.style.display = "none"
+            }else {
+                // mostre o menu
+                menu.style.display = "flex"
+            }
+        }
+    </script>
 </body>
 
 </html>

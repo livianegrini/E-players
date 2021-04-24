@@ -310,7 +310,7 @@ header{
     display: flex;
     align-items: center;
     margin-top: 60px;
-    width: 1903px;
+    width: 100%;
     height: 237px;
     background-image: url(imagens/Rectangle\ 5.png);
     justify-content: center;
@@ -606,6 +606,12 @@ footer{
     color: white;
 }
 
+.tela_cadastro2{
+    height: 800px;
+    background: linear-gradient(to bottom, rgb(14, 14, 14) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgb(31, 31, 31) 100%);
+    padding-top: 70px; 
+}
+
 .caixa_cadastro2{
     display: flex;
     align-items: center;
@@ -647,3 +653,33 @@ footer{
     font-size: 19px;
     border: none;
 }
+
+/* Responsivel */
+/* @media (max-width: 420px){
+    .container{
+        width: 420px;
+    }
+
+    .container_header{
+        width: 100%;
+    }
+
+    .logo_header{
+        width: 150px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .banner_cadastro{
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .banner_cadastro h1{
+        font-size: 30px;
+    }
+
+    .tela_cadastro{
+        width: 100%;
+    }
+} */

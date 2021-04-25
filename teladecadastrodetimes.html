@@ -13,13 +13,17 @@
     <header>
         <div class="container container_header">
             <a href=""><img class="logo_header" src="imagens/logo.svg"></img></a>
-            <nav class="links_header">
-                <a href="#inicio">Início</a>
-                <a href="#horarios">Horários</a>
-                <a href="#campeonato">Campeonato</a>
-                <a href="#resultados">Resultados</a>
-                <a href="#noticias">Notícias</a>
+            <nav  id="links" class="links_header">
+                <a href="#inicio"  onclick="BotaoDoMenu()">Início</a>
+                <a href="#horarios"  onclick="BotaoDoMenu()">Horários</a>
+                <a href="#campeonato"  onclick="BotaoDoMenu()">Campeonato</a>
+                <a href="#resultados"  onclick="BotaoDoMenu()">Resultados</a>
+                <a href="#noticias"  onclick="BotaoDoMenu()">Notícias</a>
             </nav>
+
+            <a class="btn_menu" href="javascript:void(0)" onclick="BotaoDoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
     </header>
 
@@ -27,7 +31,7 @@
         <h1>Cadastro de Times</h1>
     </div>
 
-    <section class="tela_cadastro2">
+    <section class="tela_cadastro2 container">
         <div class="caixa_cadastro2">
             <div class="botoes_cadastro">
                 <div class="todos_preencher">
@@ -70,38 +74,56 @@
 
     <footer>
         <div class="box">
-            <div class="links_uteis">
-                <h6>Links Úteis</h6>
-                <a href="#">Regras de utilização</a>
-                <a href="#">Suporte</a>
-                <a href="#">Central de Ajuda</a>
-                <a href="#">Contato</a>
-            </div>
-            <div class="paginas">
-                <h6>Páginas</h6>
-                <a href="#">Inicio</a>
-                <a href="#">Campeonato</a>
-                <a href="#">Resultados</a>
-                <a href="#">Notícias</a>
-                <a href="#">Login/Cadastro</a>
-            </div>
-
-            <div class="logo_footer">
-                <img src="imagens/logo.svg" alt="logo site">
-            </div>
-
-            <div class="redes_sociais">
-                <input type="text" placeholder="Digite seu email">
-                <button>Cadastrar</button>
-                <div class="redes">
-                    <span>Siga-nos em:</span>
-                    <a href=""><img src="imagens/instagram.png" alt="instagram"></a>
-                    <a href=""><img src="imagens/facebook.png" alt="facebook"></a>
-                    <a href=""><img src="imagens/youtube.png" alt="youtube"></a>
+            <div class="links_footer">
+                <div class="links_uteis">
+                    <h6>Links Úteis</h6>
+                    <a href="#">Regras de utilização</a>
+                    <a href="#">Suporte</a>
+                    <a href="#">Central de Ajuda</a>
+                    <a href="#">Contato</a>
+                </div>
+                <div class="paginas">
+                    <h6>Páginas</h6>
+                    <a href="#">Inicio</a>
+                    <a href="#">Campeonato</a>
+                    <a href="#">Resultados</a>
+                    <a href="#">Notícias</a>
+                    <a href="#">Login/Cadastro</a>
                 </div>
             </div>
+
+            <div class="final_footer">
+                <div class="logo_footer">
+                    <img src="imagens/logo.svg" alt="logo site">
+                </div>
+    
+                <div class="redes_sociais">
+                    <input type="text" placeholder="Digite seu email">
+                    <button>Cadastrar</button>
+                    <div class="redes">
+                        <span>Siga-nos em:</span>
+                        <a href=""><img src="imagens/instagram.png" alt="instagram"></a>
+                        <a href=""><img src="imagens/facebook.png" alt="facebook"></a>
+                        <a href=""><img src="imagens/youtube.png" alt="youtube"></a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </footer>
+
+    <script>
+        function BotaoDoMenu() {
+            var menu = document.getElementById("links")
+            if (menu.style.display  === "flex") {
+                // esconda o menu
+                menu.style.display = "none"
+            }else {
+                // mostre o menu
+                menu.style.display = "flex"
+            }
+        }
+    </script>
 </body>
 
 </html>

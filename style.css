@@ -655,31 +655,109 @@ footer{
 }
 
 /* Responsivel */
-/* @media (max-width: 420px){
+@media (max-width: 420px){
     .container{
         width: 420px;
     }
 
     .container_header{
-        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
     }
-
+    
+    header{
+        width: auto;
+    }
+    
+    .links_header{
+        
+    }
+    
     .logo_header{
         width: 150px;
         display: flex;
         justify-content: flex-end;
     }
-
-    .banner_cadastro{
-        background-size: 100%;
-        height: 100%;
+    
+    .btn_menu i{
+        display: inline-block;
     }
 
-    .banner_cadastro h1{
+    .banner_cadastro2{
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+    
+    .tela_cadastro2 {
+        width: auto;
+    }
+
+    .caixa_cadastro2{
+        width: 355px;
+    }
+
+    .todos_preencher{
+        width: 355px;
+        margin-left: 58px;
+    }
+
+    .preencher_cadastro_nome_equipe input{
+        width: 300px;
+        height: 18px;
+    }
+
+    .preencher_cadastro label{
+        height: 18px;
+        font-size: 12px; 
+    }
+
+    .botao_cadastrar2{
+        height: 30px;
+        width: 165px;
+        font-size: 15px;
+    }
+
+    .lista_de_jogadores h2{
         font-size: 30px;
     }
 
-    .tela_cadastro{
-        width: 100%;
+    table{
+        width: auto;
     }
-} */
+
+    table th{
+        font-size: 15px;
+    }
+
+    table td{
+        font-size: 15px;
+    }
+
+    table td img{
+        width: 35px;
+    }
+
+    .box{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links_uteis{
+        width: auto;
+    }
+
+    .paginas{
+        width: auto;
+    }
+
+    .logo_footer img{
+        width: 180px;
+        justify-content: center;
+    }
+    
+}
+
+

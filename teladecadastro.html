@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Cadastro Jogador</title>
+    <script src="https://kit.fontawesome.com/c8490647d8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,12 +15,16 @@
         <div class="container container_header">
             <a href=""><img class="logo_header" src="imagens/logo.svg"></img></a>
             <nav id="links" class="links_header">
-                <a href="#inicio">Início</a>
-                <a href="#horarios">Horários</a>
-                <a href="#campeonato">Campeonato</a>
-                <a href="#resultados">Resultados</a>
-                <a href="#noticias">Notícias</a>
+                <a href="#inicio" onclick="BotaoDoMenu()" >Início</a>
+                <a href="#horarios" onclick="BotaoDoMenu()">Horários</a>
+                <a href="#campeonato" onclick="BotaoDoMenu()">Campeonato</a>
+                <a href="#resultados" onclick="BotaoDoMenu()">Resultados</a>
+                <a href="#noticias" onclick="BotaoDoMenu()">Notícias</a>
             </nav>
+
+            <a class="btn_menu" href="javascript:void(0)" onclick="BotaoDoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
     </header>
 

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Cadastro Times</title>
+    <script src="https://kit.fontawesome.com/c8490647d8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,12 +14,12 @@
     <header>
         <div class="container container_header">
             <a href=""><img class="logo_header" src="imagens/logo.svg"></img></a>
-            <nav  id="links" class="links_header">
-                <a href="#inicio"  onclick="BotaoDoMenu()">Início</a>
-                <a href="#horarios"  onclick="BotaoDoMenu()">Horários</a>
-                <a href="#campeonato"  onclick="BotaoDoMenu()">Campeonato</a>
-                <a href="#resultados"  onclick="BotaoDoMenu()">Resultados</a>
-                <a href="#noticias"  onclick="BotaoDoMenu()">Notícias</a>
+            <nav id="links" class="links_header">
+                <a href="#inicio" onclick="BotaoDoMenu()">Início</a>
+                <a href="#horarios" onclick="BotaoDoMenu()">Horários</a>
+                <a href="#campeonato" onclick="BotaoDoMenu()">Campeonato</a>
+                <a href="#resultados" onclick="BotaoDoMenu()">Resultados</a>
+                <a href="#noticias" onclick="BotaoDoMenu()">Notícias</a>
             </nav>
 
             <a class="btn_menu" href="javascript:void(0)" onclick="BotaoDoMenu()">
@@ -92,22 +93,21 @@
                 </div>
             </div>
 
-            <div class="final_footer">
-                <div class="logo_footer">
-                    <img src="imagens/logo.svg" alt="logo site">
-                </div>
-    
-                <div class="redes_sociais">
-                    <input type="text" placeholder="Digite seu email">
-                    <button>Cadastrar</button>
-                    <div class="redes">
-                        <span>Siga-nos em:</span>
-                        <a href=""><img src="imagens/instagram.png" alt="instagram"></a>
-                        <a href=""><img src="imagens/facebook.png" alt="facebook"></a>
-                        <a href=""><img src="imagens/youtube.png" alt="youtube"></a>
-                    </div>
+            <div class="logo_footer">
+                <img src="imagens/logo.svg" alt="logo site">
+            </div>
+
+            <div class="redes_sociais">
+                <input type="text" placeholder="Digite seu email">
+                <button>Cadastrar</button>
+                <div class="redes">
+                    <span>Siga-nos em:</span>
+                    <a href=""><img src="imagens/instagram.png" alt="instagram"></a>
+                    <a href=""><img src="imagens/facebook.png" alt="facebook"></a>
+                    <a href=""><img src="imagens/youtube.png" alt="youtube"></a>
                 </div>
             </div>
+
 
         </div>
     </footer>
@@ -115,10 +115,10 @@
     <script>
         function BotaoDoMenu() {
             var menu = document.getElementById("links")
-            if (menu.style.display  === "flex") {
+            if (menu.style.display === "flex") {
                 // esconda o menu
                 menu.style.display = "none"
-            }else {
+            } else {
                 // mostre o menu
                 menu.style.display = "flex"
             }

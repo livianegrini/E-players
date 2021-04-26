@@ -656,6 +656,8 @@ footer{
 
 /* Responsivel */
 @media (max-width: 420px){
+
+    /* Tela Cadastro Times */
     .container{
         width: 420px;
     }
@@ -749,15 +751,70 @@ footer{
         width: auto;
     }
 
+    .links_footer{
+        display: flex;
+        align-items: flex-start;
+    }
+
     .paginas{
         width: auto;
+    }
+
+    .redes_sociais input{
+        width: 125px;
+        height: 22px;
+        font-size: 18px;
+    }
+
+    .redes_sociais button{
+        width: 125px;
+        height: 28px;
+        font-size: 18px;
     }
 
     .logo_footer img{
         width: 180px;
         justify-content: center;
     }
+
+    .redes span{
+        font-size: 20px;
+    }
+
+    .redes img{
+        width: 30px;
+        height: 30px;
+    }
     
+    /* Tela Castro de Jogador */
+
+    .tela_cadastro{
+        width: auto;
+    }
+
+    .caixa_cadastro{
+        width: 340px;
+    }
+
+    .preencher_cadastro_nomejogador input{
+        width: 290px;
+    }
+    
+    .preencher_cadastro input{
+        width: 290px;
+    }
+
+    .preencher_cadastro_equipe input{
+        width: 290px;
+    }
+
+    .botao_cadastrar{
+        height: 30px;
+        width: 165px;
+        font-size: 15px;
+    }
+    
+
 }
 
 

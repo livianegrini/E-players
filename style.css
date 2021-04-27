@@ -660,6 +660,10 @@ footer{
     display: none;
 }
 
+.links_footer{
+    display: flex;
+}
+
 /* Responsivel */
 @media (max-width: 420px){
 
@@ -699,7 +703,11 @@ footer{
     
     .btn_menu{
         display: inline-block;
+    }
+
+    .btn_menu i{
         color: white;
+        font-size: 28px;
     }
 
     .banner_cadastro2{
@@ -709,6 +717,10 @@ footer{
         height: 200px;
     }
     
+    .tela_cadastro {
+        width: 100vw;
+    }
+
     .tela_cadastro2 {
         width: 100vw;
     }

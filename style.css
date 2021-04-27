@@ -611,6 +611,7 @@ footer{
     height: 800px;
     background: linear-gradient(to bottom, rgb(14, 14, 14) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgb(31, 31, 31) 100%);
     padding-top: 70px; 
+    width: auto;
 }
 
 .caixa_cadastro2{
@@ -709,7 +710,7 @@ footer{
     }
     
     .tela_cadastro2 {
-        width: auto;
+        width: 100vw;
     }
 
     .caixa_cadastro2{
